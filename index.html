@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <script src="java/java.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+
+<body>
+
+<div id="flip">Tıklayınız</div>
+<div id="panel">Siteme hoşgeldiniz</div>
+
+
+
+
+
+  <!-- menü kısmı başlangıç-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a id="baslik" href="#"><i>Her Kalp Kendi Niyetini Yazar</i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="baslik2">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="kitaphakkında.html">Kitap Hakkında </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="yazarhakkında.html">Yazar Hakkında</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="girişyap.html">Giriş Yap</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <!--menü kısmı bitiş-->
+
+  <div class="row m-6" style="border:solid red 1px;">
+    <div class="col-md-4" style="border:solid red 1px;">
+      <div class="card" style="width: 18rem;">
+        <img src="resimler/niyet.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> <span style="color:red">Niyet Defteri</span></h5>
+          <p class="card-text"><i>Kalbinin sesini duy,ezberler seni geriletir.Diri ol,diril.</i></p>
+          <p class="card-text"><i>Benzer benzeri çeker.İyi düşünen iyi ile kötü düşünen kötü ile buluşur.Gezdiğimiz yerin
+              4kokusu üstümüze siner.</i></p>
+          <p class="card-text"><i>Niyetimizin enstürmanı igademiz,akordu verileceğinden eminliğimizder.</i></p>
+          <p class="card-text"><i>Senin en iyi dostun sensin,kulak ver,değer ver,taktir et.</i></p>
+          <p class="card-text"><i>Geçmişin kapılarını kapatmaya geleceğin kapıları kapalıdır.</i></p>
+          <p class="card-text"><i>Teslimiyet , bizi en hayırlı limana taşıyacak olan kayıktır. </i></p>
+          <p class="card-text"><i>Zannettiklerin , önyargıların ve beklentiler seni yanıltır.</i></p>
+          <p class="card-text"><i>Yargılarımızla yargılanır ve şikayet ettiklerimizle sınanırız.</i></p>
+          <p class="card-text"><i>Özgürlük özgürlükle mümkün.</i></p>
+          <p class="card-text"><i>Geleceğin projeleri şimdiki zamanla anaylanır.Ne inşa edeceğini bilmek isteyen yaşadığı
+              anın hakkını verir.</i></p>
+        </div>
+      </div>  
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="resimler/meltem.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> <span style="color:red">Meltem Reyhani</span></h5>
+        <p class="card-text">1989-1994 yılları arasında Ege Üniversitesi Edebiyat Fakültesi Klasik Arkeoloji
+          Bölümünden mezun olmuştur. 2017 yılında İstanbul Üniversitesi Edebiyat Fakültesi Antropoloji bölümüne
+          başlamış ve hala bu bölümde öğrenim sürecini devam ettirmektedir. Meltem Güner 2016 yılında Raymond Lo
+          ile Feng Shui Teknikleri eğitimini almıştır. İş hayatına Çamlıca Meşrubat Sanayi ve Coca Cola A.Ş. gibi
+          firmalarda satış danışmanlığı yaparak başlayan Meltem Güner 2000 yılında Nis Kozmetik de Genel
+          Koordinatörlük yapmaya başlamış sonrasında da Allure, Wella gibi kozmetik firmalarında iş hayatına devam
+          etmiştir. 2014 yılında Ünal Güner ile birlikte Atölye Simya’yı kurmuş ve insanların yaşam kalitelerini
+          arttıracak atölye çalışmaları düzenlemeye başlamıştır.</p>
+          <a href="yazarhakkında.html" class="card-link">Devamını Oku</a>
+
+      </div>
+
+  </div>
+
+  
+
+
+
+  
+  <iframe id="harita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99022.39428011268!2d34.099656880935434!3d39.141749491177976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d572c090d21383%3A0x6dd29199261c3d06!2zS8SxcsWfZWhpciwgS8SxcsWfZWhpciBNZXJrZXovS8SxcsWfZWhpcg!5e0!3m2!1str!2str!4v1653144978019!5m2!1str!2str"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <div>
+     <button onclick="haritayaGit()">Haritaya Git</button>
+     <img id="slider" src="" alt="">
+   </div>
+
+   <script>
+     function haritayaGit(){
+       var slider =document.getElementById("slider");
+     }
+   </script>
+
+
+
+  <iframe id="harita2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195884.96090500194!2d32.62268007535338!3d39.90329227678251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d520732db1%3A0xbdc57b0c0842b8d!2sAnkara!5e0!3m2!1str!2str!4v1653145656568!5m2!1str!2str"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div>
+    <button onclick="haritayaGit()">Haritaya Git</button>
+    <img id="slider" src="" alt="">
+  </div>
+
+  <script>
+    function haritayaGit(){
+      var slider =document.getElementById("slider");
+    }
+  </script>
+
+
+
+  <!-- footer başlangıç-->
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white">
+
+
+
+
+
+
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Kurumsal İşbirlikleri</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Gizlilik Politikası</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">İptal/İade Politikası</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Mesafeli Satış Sözleşmesi</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <p id="bank" onclick="bankFunction()">Banka Bilgilerimiz</p>
+
+          <script>
+            function bankFunction() {
+                document.getElementById("bank").style.color = "red";
+            }
+            </script>
+
+
+          <p class="list-unstyled mb-0">
+            Reyhan Akademi Danışmanlık ve <br>
+            Org. San. Ltd. Şti. <br>
+            Hesap No:12345678910 <br>
+            IBAN:10987654321
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <p id="ilet" onmouseover="iletFunction()">İletişim</p>
+
+          <script>
+            function iletFunction() {
+                document.getElementById("ilet").style.color = "blue";
+            }
+            </script>
+
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-facebook-f"></i></a>
+
+              <!-- Twitter -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-twitter"></i></a>
+
+              <!-- Google -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-google"></i></a>
+
+              <!-- Instagram -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-instagram"></i></a>
+
+              <!-- Linkedin -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-linkedin-in"></i></a>
+
+              <!-- Github -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+
+
+
+
+  </footer>
+
+  <button onclick="this.innerHTML='Büşra Yıldırım'">Siteyi Hazırlayan:Tıkla Ve İsmimi Gör</button>
+
+  <p id="tesekkur" onmouseover='style.color="red"' onmouseout='style.color="black"'>Sitemi Ziyatet Ettiğiniz İçin Teşekkürler...</p>
+
+
+
+ 
+  
+
+
+
+
+
+</body>
+
+</html>

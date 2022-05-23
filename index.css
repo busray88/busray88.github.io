@@ -1,0 +1,23 @@
+#harita{
+    width: 400;
+    height: 500;
+    border: 0;
+    
+}
+
+
+#harita2{
+    width: 400;
+    height: 500;
+    border: 0;
+    
+
+}
+
+.baslik{
+    color:red ;
+}
+
+.baslik2{
+    color: blue;
+}

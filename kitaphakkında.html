@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+
+
+  <div id="flip">Tıklayınız</div>
+<div id="panel">Siteme hoşgeldiniz</div>
+
+
+
+    <!-- menü kısmı başlangıç-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><i>Her Kalp Kendi Niyetini Yazar</i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="kitaphakkında.html">Kitap Hakkında </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="yazarhakkında.html">Yazar Hakkında</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="girişyap.html">Giriş Yap</a>
+              </li>
+            
+          </ul>
+        </div>
+      </nav>
+
+
+
+  <!--menü kısmı bitiş-->
+
+
+
+  <div class="container">
+    <div class="row">
+      <d1><b>Söz Büyüdür</b></d1>
+      <p>
+        Sözler,sdçimleri ifade eder,seçimlerse kadere dönüşür.Kaderse bir çemberdir.<br>İçine hapsolduğun bir çember... <br>
+        Ne varki sözlerle inşa ettiğin çemberi yine sözle kurabilmen mümkün...<br> Nasıl Yani? Yeni sözlerle, yeni 
+        bir gelecek tasarlayarak...<br> İşte bu kitap, bir geleceği tasarlama kitabı...<br> Hem de sözlerle. Çünkü sözler tılsımdır.<br>
+        Eski seni, yeni sözlerinle dönüştürebilmeye başlayacaksın.<br> Geçmişini bırakmaya hazır mısın?<br>
+        Eski sen ile vedalaşabilecek misin? <br>Yeni seni ne kadar seveceksin?<br> Tasarladığın gelecek ile hayalindeki gelecek aynı mısın?<br>
+        Hadi aç sayfaları... <br> Bu kitap geleceğinin pusulası...
+      </p>
+    </div>
+  </div>
+    
+
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="resimler/niyet.jpg" alt="Card image cap">
+    <div class="card-body">      <span>150₺</span>
+
+      <h5 class="card-title"><span  id="nyt" style="color:red">Niyet Defteri</span></h5>
+      
+      <a href="#"  onclick="renkDegistir()" class="btn btn-primary">Satın Al</a>
+
+    
+
+      <script>
+        var niyet=document.getElementById("nyt");
+        function renkDegistir(){
+          nyt.style.color="yellow";
+        }
+      </script>
+
+
+
+
+    </div>
+    
+  </div>
+
+
+</body>
+</html>
